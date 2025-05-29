@@ -33,8 +33,13 @@ theme: minima
 plugins:
   - jekyll-feed
 
+collections:
+  vbc:
+    output: true
+    permalink: /vbc/:path/
+
 header_pages:
-  - projects/vbc_analysis/project_outline.md
+  - /vbc/project_outline.html
   - about.markdown
 
 # Exclude from processing.

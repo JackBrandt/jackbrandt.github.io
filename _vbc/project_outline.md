@@ -1,6 +1,7 @@
 ---
 layout: page
 title: VBC Project Outline
+show_in_header: true
 ---
 Here is my proposed process for analyzing VBC in this project. As I finish, I'll link each step to its corresponding work.
 

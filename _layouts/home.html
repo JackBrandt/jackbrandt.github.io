@@ -9,6 +9,17 @@ layout: default
 
   {{ content }}
 
+  {%- if site.vbc and site.vbc.size > 0 -%}
+  <h2 class="project-list-heading">VBC Project</h2>
+  <ul class="project-list">
+    {%- for vbc_page in site.vbc -%}
+      <li>
+        <a href="{{ vbc_page.url | relative_url }}">{{ vbc_page.title }}</a>
+      </li>
+    {%- endfor -%}
+  </ul>
+  {%- endif -%}
+
   {%- if site.posts.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
     <ul class="post-list">
