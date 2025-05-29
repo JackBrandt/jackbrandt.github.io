@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to Jack's Portfolio"
 date:   2025-05-27
-categories: general
+category: general
 ---
 
 As an aspiring actuary, I created this site to showcase my potential and efforts. I'll update it as I have more to showcase.
