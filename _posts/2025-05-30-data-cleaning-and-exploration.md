@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "VBC Data Exploration and AI Podcast"
+title:  "Data Cleaning and Exploration"
 date:   2025-05-29
 categories: vbc
 tag: data exploration
